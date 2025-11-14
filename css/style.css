@@ -57,8 +57,8 @@ header {
 
 /* title and colored span */
 .logo-text-vertical {
-  font-size: 1.4rem;  /* smaller */
-  font-weight: 800;
+  font-size: 2.3rem;  /* smaller */
+  font-weight: 900;
   margin: 0;
   line-height: 1;
   text-align: center;
@@ -77,7 +77,7 @@ header {
   margin: 0;
   margin-top: 2px;
   font-style: italic;
-  color: #e05e1d;
+  color: gold;
 }
 
 /* ensure navbar still aligns with new brand block */
@@ -124,7 +124,7 @@ header {
   }
 
   .logo-text-vertical {
-    font-size: 1.6rem;
+    font-size: 2.2rem;
   }
 
   .tagline-vertical {
@@ -144,7 +144,7 @@ header {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 85px;
+  gap: 95px;
 }
 
 .nav-links a {
@@ -181,9 +181,10 @@ header {
 }
 
 /* HERO SECTION */
+
 .hero {
-  height: 100vh;
-  background: url('../images/hero.jpg') no-repeat center center/cover;
+  height: 120vh;
+  background: url('../images/22.jpeg') center center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,6 +195,10 @@ header {
 .hero::before {
   content: "";
   position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
 }
@@ -205,7 +210,7 @@ header {
 
 .hero-content h1 {
   font-size: 3rem;
-  color: #ff0000;
+  color: #d76c1a;
   margin-bottom: 15px;
 }
 
@@ -472,7 +477,8 @@ footer {
   transform: scale(1.1);
 }
 
-/*images slide */
+/*
+/*images slide 
 .diet-section {
   padding: 80px 10%;
   text-align: center;
@@ -552,6 +558,80 @@ footer {
 .slider-controls span:hover {
   color: #ff0000;
   transform: scale(1.2);
+} */
+
+/*Dual diet */
+.dual-diet-section {
+  padding: 70px 10%;
+  background: #111;
+  text-align: center;
+}
+
+.dual-diet-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.diet-slider-box {
+  width: 45%;
+  min-width: 320px;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.3);
+}
+
+.diet-slider-box h3 {
+  color: #ff0000;
+  margin-bottom: 15px;
+}
+
+.diet-slider {
+  position: relative;
+  min-height: 350px;
+}
+
+.diet-slider div {
+  display: none;
+  text-align: center;
+}
+
+.diet-slider div.active {
+  display: block;
+}
+
+.diet-slider img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.slider-controls {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slider-controls span {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  transition: .3s;
+}
+
+.slider-controls span:hover {
+  color: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .diet-slider-box {
+    width: 100%;
+  }
 }
 
 
