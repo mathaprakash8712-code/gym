@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -380,3 +381,267 @@
   <script src="js/main.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flex Gym</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <a href="https://maps.app.goo.gl/bcX3sb7zLmo5cQwg6"
+   target="_blank" class="floating-map">
+   <img src="images\map.jpg" alt="Gym Location">
+</a>
+
+  <!-- HEADER -->
+  <header>
+
+   <nav class="navbar">
+    <!-- Brand block: logo above title, tagline below title -->
+<div class="brand-vertical">
+  <img src="images\logo.jpeg" alt="Flex Gym Logo" class="gym-logo-vertical">
+
+  <div class="title-block-vertical">
+    <h1 class="logo-text-vertical">Flex<span>Gym</span></h1>
+    <p class="tagline-vertical">Friendly Gym and Healthy Gym</p>
+  </div>
+</div>
+<!--<h1 class="logo">Flex<span>Gym</span></h1> -->
+
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#gallery">Membership</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <!-- 👇 Add these 2 icons -->
+  <div class="nav-social">
+    <a href="https://www.instagram.com/mathasrinu96/#" target="_blank">
+      <img src="images\insta.jpg" alt="Instagram" class="nav-icon">
+    </a>
+
+    <a href="https://wa.me/919394342221" target="_blank">
+      <img src="images\whatsapp.jpeg.png" alt="WhatsApp" class="nav-icon">
+    </a>
+  </div>
+</nav>
+
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Unleash Your Inner Strength</h1>
+      <p>Join Flex Gym today and transform your body and mind.</p>
+      <a href="#contact" class="btn">Join Now</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About Flex Gym</h2>
+    <p>Flex Gym is your ultimate destination for strength, stamina, and fitness excellence. We combine expert trainers, premium equipment, and motivating energy to help you achieve your best.</p>
+    <div class="trainers">
+      <div class="trainer">
+        <img src="images\trainer1.jpeg" alt="Trainer 1">
+        <h3>Matha Srinivas Rao</h3>
+        <p>Strength Coach </p>
+        <h3>15+ years of experience in gym trainer and MSR Certified fitness Coach and Gold medal in Bodybuilding</h3>
+      </div>
+     <!-- <div class="trainer">
+        <img src="images\trainer2.jpg.jpg" alt="Trainer 2">
+        <h3>Sarah Lee</h3>
+        <p>Yoga Expert</p>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Personal Training</h3>
+        <p>One-on-one sessions to help you reach your fitness goals faster.</p>
+      </div>
+     <!--<div class="card">
+        <h3>Group Classes</h3>
+        <p>Join Zumba, Yoga, and HIIT sessions led by top trainers.</p>
+      </div>-->
+      <div class="card"> 
+        <h3>Nutrition Plans</h3>
+        <p>Get diet guidance tailored to your lifestyle and goals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery">
+    <h2>Our Gallery</h2>
+    <div class="gallery-container">
+      <img src="images\gym1.jpeg" alt="Gym Image 1">
+      <img src="images\gym2.jpeg" alt="Gym Image 2">
+      <img src="images/gym3.jpeg" alt="Gym Image 3">
+      <img src="images/gym4.jpeg" alt="Gym Image 4">
+    </div>
+  </section>
+  <!-- Membership plans-->
+   <section id="membership" class="membership">
+  <h2>Membership Plans</h2>
+  <div class="plans">
+    <div class="plan">
+      <h3>Monthly Plan for strength</h3>
+      <p>₹700 / month</p>
+      <ul>
+        <li>strength Gym Access</li>
+        <li>General Training Session</li>
+        <li>Diet Consultation</li>
+      </ul>
+      <button class="btn" onclick="openPayment('Monthly')">Join Now</button>
+    </div>
+
+    <div class="plan">
+      <h3>Quarterly Plan for strength</h3>
+      <p>₹1800 / 3 months</p>
+      <ul>
+        <li>strength Gym Access</li>
+        <li>General Training Sessions</li>
+        <li>Diet Consultation</li>
+      </ul>
+      <button class="btn" onclick="openPayment('Quarterly')">Join Now</button>
+    </div>
+  <div class="plan">
+    <h3>Monthly Plan for Cardio</h3>
+      <p>₹1200/ month</p>
+      <ul>
+        <li>Full Gym Access</li>
+        <li>General Training Session</li>
+      </ul>
+      <button class="btn" onclick="openPayment('Monthly')">Join Now</button>
+    </div>
+
+    <div class="plan">
+      <h3>Quarterly Plan for Cardio</h3>
+      <p>₹3000 / 3 months</p>
+      <ul>
+        <li>Full Gym Access</li>
+        <li>General Training Sessions</li>
+        
+      </ul>
+      <button class="btn" onclick="openPayment('Quarterly')">Join Now</button>
+    </div>
+
+    <div class="plan">
+      <h3>PersonalTrainer Plan</h3>
+      <p>₹4000 / 1 month</p>
+      <ul>
+        <li>Full Gym Access</li>
+        <li>Personal Training Sessions</li>
+        <li>Custom Diet Plan</li>
+      </ul>
+      <button class="btn" onclick="openPayment('Yearly')">Join Now</button>
+    </div>
+     <div class="plan">
+      <h3>Personal Nutrition Package Plan</h3>
+     <!--  <p>45 Days/₹2000</p>
+      <p>45 Days/₹2000</p>
+      <p>45 Days/₹2000</p> -->
+     <ul>
+        <li>45 Days/₹2000 </li>
+        <li>150 Days/₹5000</li>
+        <li>360 Days/₹8000</li>
+      </ul>
+      <button class="btn" onclick="openPayment('Yearly')">Join Now</button>
+    </div>
+  </div>
+</section>
+
+<section id="diet" class="diet-section">
+  <h2>Full Day Diet Plan</h2>
+  <p class="coach">By MSR – Certified Fitness Coach</p>
+
+  <div class="diet-slider">
+    <div class="slide active">
+      <h3>6 AM – 7 AM</h3>
+      <p>Drink warm water or Green tea (empty stomach)</p>
+      <img src="images\diet1.jpeg" alt="Morning Green Tea">
+    </div>
+
+    <div class="slide">
+      <h3>7 AM – 8 AM</h3>
+      <p>Oats meal with Warm milk (1 bowl 40gm)</p>
+      <img src="images\diet2.jpeg" alt="Oats Breakfast">
+    </div>
+
+    <div class="slide">
+      <h3>11 AM – 12 PM</h3>
+      <p>Apple & Orange or any seasonal fruits</p>
+      <img src="images\diet3.jpeg" alt="Fruits Snack">
+    </div>
+
+    <div class="slide">
+      <h3>1 PM – 2 PM</h3>
+      <p>Dal + 2 Roti with salad & 4 eggs or Paneer (100gm)</p>
+      <img src="images\diet4.jpeg" alt="Lunch Meal">
+    </div>
+
+    <div class="slide">
+      <h3>4 PM – 5 PM</h3>
+      <p>Coffee (less sugar) or Green Tea</p>
+      <img src="images\diet5.jpeg" alt="Evening Tea">
+    </div>
+
+    <div class="slide">
+      <h3>8 PM – 9 PM</h3>
+      <p>Veggies (Sabzi) + 2 Roti with salad & Chicken or Paneer (100gm)</p>
+      <img src="images\diet6.jpeg" alt="Dinner">
+    </div>
+
+    <div class="slide">
+      <h3>10 PM – 11 PM</h3>
+      <p>Sleep at least 6 to 8 hours daily</p>
+      <img src="images\diet7.jpeg" alt="Sleep">
+    </div>
+  </div>
+
+  <!-- navigation arrows -->
+  <div class="slider-controls">
+    <span class="prev">❮</span>
+    <span class="next">❯</span>
+  </div>
+</section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <!-- <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form> -->
+
+    <div class="contact-info">
+              <p><strong>Prop/coach:</strong>Matha Srinivas Rao</p>
+
+<p><strong>Address:</strong> kandrika,vijayawada, India</p>
+      <p><strong>Phone:</strong> +91 9394342221</p>
+      <p><strong>Email:</strong> info@flexgym.com</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Flex Gym | All Rights Reserved</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+>>>>>>> 27bfafa1154e66c4ff3e9756f4aea786bba9e333
